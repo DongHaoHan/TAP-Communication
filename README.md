@@ -5,7 +5,7 @@ This repository contains the implementation code for the paper titled "Deep Lear
 2) Run 'JHFE-Net training.py' in the JHFE-Net Training directory. Move the trained model file (Trained JHFE-Net.pth) to the Validation directory.
 3) Execute the following scripts to produce the results:
 'Testing set.py'
-'Patch antennas array.py'
+'Patch antennas array.py'.
 # 3.Notes
 1) Data used in the paper can be downloaded at https://drive.google.com/file/d/1fcRQ08oD-SqCmT4TCmwOD4d-QfBm1pnp/view?usp=sharing
 2) Trained JHFE-Net.pth is available for direct download and can be utilized for testing without requiring additional training.
