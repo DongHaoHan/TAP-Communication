@@ -57,7 +57,7 @@ test_loader = DataLoader(TensorDataset(test_input_tensor), batch_size=1, shuffle
 # ==========================================
 # 5. Main Verification & Visualization Loop
 # ==========================================
-print(f"Starting Verification for Sample Index: {SAMPLE_INDEX}...")
+print(f"Starting Validation for Sample Index: {SAMPLE_INDEX}...")
 
 with torch.no_grad():
     found = False
@@ -117,4 +117,5 @@ with torch.no_grad():
 
 
 print("\nValidation finished.")
+
 
