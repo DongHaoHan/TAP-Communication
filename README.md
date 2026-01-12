@@ -2,7 +2,7 @@
 This repository contains the implementation code for the paper titled "Deep Learning-Based Phaseless Near-Field to Near-Field Transformation via Joint Height-Frequency Embedding"
 # 2.Usage Instructions
 1) Execute 'Data_generation.py' in the Data Generation directory. Transfer the generated data file (Data.h5) to both the JHFE-Net Training and Numerical Validation directories.
-2) Run 'JHFE-Net_training.py' in the JHFE-Net Training directory. Move the trained model file (Trained_JHFE-Net.pth) to the Numerical Validation directory.
+2) Run 'JHFE-Net_Training.py' in the JHFE-Net Training directory. Move the trained model file (Trained_JHFE-Net.pth) to the Numerical Validation directory.
 3) Execute the following scripts to produce the results:
 'Testing_data.py'
 'Patch_antennas_array.py'
