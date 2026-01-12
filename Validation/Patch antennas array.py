@@ -7,7 +7,7 @@ from Model import JHFE_Net
 # ==========================================
 # 1. Configuration & Parameters
 # ==========================================
-ANTENNA_LIST = ['Patchs_12', 'Patchs_13', 'Patchs_1234']
+ANTENNA_LIST = ['patchs_12', 'patchs_13', 'patchs_1234']
 FREQ_LIST = [3]
 HEIGHT_LIST = range(5, 17, 2)
 GRID_SIZE = 41
@@ -64,7 +64,7 @@ model.eval()
 # ==========================================
 
 for a_idx, antenna in enumerate(ANTENNA_LIST):
-    input_file = f'scanning_{antenna}_3GHz_10mm.near'
+    input_file = f'Scanning_{antenna}_3GHz_10mm.near'
 
     if not os.path.exists(input_file):
         print(f"Skip: {antenna}, file {input_file} not found.")
