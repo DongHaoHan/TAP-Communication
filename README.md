@@ -9,5 +9,6 @@ This repository contains the implementation code for the paper titled "Deep Lear
 # 3.Notes
 1) Data used in the paper can be downloaded at https://drive.google.com/file/d/1fcRQ08oD-SqCmT4TCmwOD4d-QfBm1pnp/view?usp=sharing
 2) 'Trained JHFE-Net.pth' is available for direct download and can be utilized for testing without requiring additional training.
+3) The measured data used for experimental validation is not included in this repository.
 # 4.Maintainers
 This project is owned and managed by Dong-Hao Han and Xing-Chang Wei from Zhejiang University, China.
