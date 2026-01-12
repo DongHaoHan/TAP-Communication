@@ -19,7 +19,7 @@ NUM_EPOCHS = 100
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 DATA_PATH = 'Data.h5'
-MODEL_SAVE_PATH = 'Trained_JHFE-Net.pth'
+MODEL_SAVE_PATH = 'Trained JHFE-Net.pth'
 LOSS_PATH = 'Training_Loss_Results.xlsx'
 
 # For evaluation
@@ -186,3 +186,4 @@ plt.grid(True, which='both', linestyle='--', alpha=0.5)
 plt.tight_layout()
 plt.savefig('Loss_Curve.png', dpi=300)
 plt.show()
+
