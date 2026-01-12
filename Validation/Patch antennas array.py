@@ -26,7 +26,7 @@ def Calculate_relative_error(pre, tru):
     return error
 
 # ==========================================
-# 3. Data Load
+# 3. Data Load Function
 # ==========================================
 def Load_gt_raw(filename):
     if not os.path.exists(filename):
@@ -124,5 +124,6 @@ for a_idx, antenna in enumerate(ANTENNA_LIST):
             plt.tight_layout()
             plt.savefig(f'Pred_{antenna}_{key}.png', dpi=300)
             plt.close()
+
 
 print("\nValidation finished.")
