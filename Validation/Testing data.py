@@ -13,7 +13,7 @@ FONT_SIZE = 45
 FREQ_LIST = [2, 3, 4]
 HEIGHT_LIST = range(5, 17, 2)
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-MODEL_PATH = "Trained_JHFE-Net.pth"
+MODEL_PATH = "Trained JHFE-Net.pth"
 DATA_PATH = 'Data.h5'
 
 # ==========================================
@@ -114,5 +114,6 @@ with torch.no_grad():
 
     if not found:
         print(f"Error: Sample index {SAMPLE_INDEX} is out of range.")
+
 
 print("\nVerification finished.")
