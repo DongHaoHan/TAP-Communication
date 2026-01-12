@@ -116,4 +116,5 @@ with torch.no_grad():
         print(f"Error: Sample index {SAMPLE_INDEX} is out of range.")
 
 
-print("\nVerification finished.")
+print("\nValidation finished.")
+
