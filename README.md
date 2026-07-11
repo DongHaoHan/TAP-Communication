@@ -12,3 +12,5 @@ This repository contains the implementation code for the paper titled "Deep Lear
 3) The measured data used for experimental validation is not included in this repository.
 # 4.Maintainers
 This project is owned and managed by Dong-Hao Han and Xing-Chang Wei from Zhejiang University, China.
+# 5.License
+The original code in this repository is licensed under the MIT License - see the LICENSE file for details.
