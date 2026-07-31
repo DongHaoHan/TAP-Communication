@@ -7,7 +7,7 @@ This repository contains the implementation code for the paper titled "Deep Lear
 'Testing set.py'
 'Patch antennas array.py'.
 # 3.Notes
-1) Data used in the paper can be downloaded at https://pan.quark.cn/s/5ce1164e98aa
+1) Data used in the paper can be downloaded at https://pan.quark.cn/s/695e8b47565b or https://ieee-dataport.org/documents/deep-learning-based-phaseless-near-field-near-field-transformation-joint-height-frequency (must be IEEE paid DataPort subscriber to access).
 2) 'Trained JHFE-Net.pth' is available for direct download and can be utilized for testing without requiring additional training.
 3) The measured data used for experimental validation is not included in this repository.
 # 4.Maintainers
